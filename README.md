@@ -11,3 +11,9 @@ Check actuator health status:
 ```bash
 curl -i http://localhost:8080/actuator/health
 ```
+
+Check endpoint info:
+
+```bash
+curl -i http://localhost:8080/hello-world\?name\=John
+```
